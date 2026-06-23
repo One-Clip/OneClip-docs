@@ -22,9 +22,9 @@ edit_uri = "edit/main/docs"
 # ===== 额外的 CSS 文件 =====
 extra_css = [
     "stylesheets/extra2.css",
-    "https://cdn.jsdelivr.net/gh/Wcowin/Wcowin.github.io@main/docs/stylesheets/extra.css",
+    "https://oneclip.cloud/Wcowin/stylesheets/extra.css",
     # "https://cdn.jsdelivr.net/gh/Wcowin/Wcowin.github.io@main/docs/stylesheets/customize.css",
-    "https://cdn.jsdelivr.net/gh/Wcowin/Wcowin.github.io@main/docs/stylesheets/ziti.css"
+    "https://oneclip.cloud/Wcowin/stylesheets/ziti.css"
 ]
 
 # ===== 导航配置 =====
@@ -143,7 +143,7 @@ dismiss = true
 # ===== 社交媒体链接 =====
 [[project.extra.social]]
 icon = "fontawesome/brands/github"
-link = "https://github.com/Wcowin/OneClip"
+link = "https://github.com/Wkwcowin/OneClip"
 name = "GitHub"
 
 [[project.extra.social]]
@@ -176,7 +176,7 @@ name = "微信公众号"
 free_trial_days = 7
 monthly_price = "¥5"
 yearly_price = "¥50"
-lifetime_price = "¥29.90"
+lifetime_price = "¥39.90"
 max_devices = 5
 
 # ===== 支付配置 =====

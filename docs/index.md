@@ -13,8 +13,8 @@ description: OneClip - 简单专业的 macOS 剪贴板管理工具
 
 🚀 高效 · 🎨 现代 · ⚡️ 流畅 · 🔒 安全
 
-[![Release](https://img.shields.io/github/v/release/Wcowin/OneClip?style=for-the-badge&color=3b82f6)](https://github.com/Wcowin/OneClip/releases)
-[![Downloads](https://img.shields.io/github/downloads/Wcowin/OneClip/total?style=for-the-badge&color=22c55e)](https://github.com/Wcowin/OneClip/releases)
+[![Release](https://img.shields.io/github/v/release/Wkwcowin/OneClip?style=for-the-badge&color=3b82f6)](https://github.com/Wcowin/OneClip/releases)
+[![Downloads](https://img.shields.io/github/downloads/Wkwcowin/OneClip/total?style=for-the-badge&color=22c55e)](https://github.com/Wcowin/OneClip/releases)
 ![Homebrew](https://img.shields.io/badge/Homebrew-Available-orange?style=for-the-badge&logo=homebrew&logoColor=white)
 ![macOS 12+](https://img.shields.io/badge/macOS-12%2B-0f172a?style=for-the-badge&logo=apple&logoColor=white)
 
