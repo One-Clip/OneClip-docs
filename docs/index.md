@@ -76,7 +76,7 @@ OneClip 是一款专为 macOS 打造的**专业级剪贴板管理工具**。采�
 
 === "GitHub Releases"
 
-    1. 前往 [Releases 页面](https://github.com/Wcowin/OneClip/releases) 下载最新版本
+    1. 前往 [Releases 页面](https://github.com/One-Clip/OneClip/releases) 下载最新版本
     2. 将 `OneClip.app` 拖入 `Applications` 文件夹
 
 === "网盘下载"
@@ -188,7 +188,7 @@ sudo xattr -rd com.apple.quarantine /Applications/OneClip.app
 
 ## 🚀 获取 OneClip
 
-[🚀 免费下载试用](https://github.com/Wcowin/OneClip/releases){ .md-button }
+[🚀 免费下载试用](https://github.com/Wkwcowin/OneClip/releases){ .md-button }
 [💎 购买许可证 - ¥39.90起](purchase/index.md){: .md-button .md-button--primary }
 
 ---

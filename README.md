@@ -3,8 +3,8 @@
 OneClip - 简单专业的 macOS 剪贴板管理工具
 
 ![用户评分](https://img.shields.io/badge/用户评分-4.9/5-brightgreen)
-![下载量](https://img.shields.io/badge/下载量-11000%2B-blue)
-![版本](https://img.shields.io/badge/最新版本-v1.5.7-orange)
+![下载量](https://img.shields.io/badge/下载量-20000%2B-blue)
+![版本](https://img.shields.io/badge/最新版本-v1.6.1-orange)
 
 ## 简介
 
