@@ -87,7 +87,7 @@ docs/
 
 ### 安装
 
-1. 访问 [GitHub Releases](https://github.com/Wcowin/OneClip/releases)
+1. 访问 [GitHub Releases](https://github.com/One-Clip/OneClip/releases)
 2. 下载最新版本的 DMG 文件
 3. 拖拽 OneClip 到应用程序文件夹
 4. 打开 OneClip 应用
@@ -117,7 +117,7 @@ docs/
 - **💬 QQ 群**：[1060157293](https://qm.qq.com/q/xiImGHVMcM)
 - **📱 Telegram**：[https://t.me/+I7S6R0pw5180YzRl](https://t.me/+I7S6R0pw5180YzRl)
 - **🌐 官网**：[https://oneclip.cloud](https://oneclip.cloud)
-- **🐛 GitHub Issues**：[https://github.com/Wcowin/OneClip/issues](https://github.com/Wcowin/OneClip/issues)
+- **🐛 GitHub Issues**：[https://github.com/One-Clip/OneClip/issues](https://github.com/One-Clip/OneClip/issues)
 
 ## 许可证
 
@@ -129,6 +129,6 @@ Copyright © 2026 Wcowin. All rights reserved.
 
 ## 源码说明
 
-OneClip 早期源码已开源在 [src/](https://github.com/Wcowin/OneClip/tree/main/src) 目录，可自行下载构建。采用 MIT 协议。当前正式版已采用数据库存储，功能更完善，为商业软件。
+OneClip 早期源码已开源在 [src/](https://github.com/One-Clip/OneClip/tree/main/src) 目录，可自行下载构建。采用 MIT 协议。当前正式版已采用数据库存储，功能更完善，为商业软件。
 
-Windows 版本正在开发中，敬请期待！仓库地址：[https://github.com/Wcowin/OneClip-Windows](https://github.com/Wcowin/OneClip-Windows)
+Windows 版本正在开发中，敬请期待！仓库地址：[https://github.com/One-Clip/OneClip-Windows](https://github.com/One-Clip/OneClip-Windows)

@@ -24,7 +24,7 @@
 
 ### 🐛 问题反馈
 
-**GitHub Issues：** [提交问题](https://github.com/Wcowin/OneClip/issues)
+**GitHub Issues：** [提交问题](https://github.com/One-Clip/OneClip/issues)
 
 适用于：
 
@@ -41,7 +41,7 @@
 
 ### 💬 社区讨论
 
-**GitHub Discussions：** [参与讨论](https://github.com/Wcowin/OneClip/discussions)
+**GitHub Discussions：** [参与讨论](https://github.com/One-Clip/OneClip/discussions)
 
 适用于：
 

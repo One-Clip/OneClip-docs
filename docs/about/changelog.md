@@ -450,7 +450,7 @@ brew upgrade --cask oneclip
 
 **手动安装用户：**
 
-1. 访问 [GitHub Releases](https://github.com/Wcowin/OneClip/releases)
+1. 访问 [GitHub Releases](https://github.com/One-Clip/OneClip/releases)
 2. 下载最新版本
 3. 替换现有应用
 

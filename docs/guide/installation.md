@@ -17,7 +17,7 @@ brew install --cask wcowin/oneclip/oneclip
 
 ### 手动安装
 
-1. 从 [GitHub Releases](https://github.com/Wcowin/OneClip/releases) 下载最新版本
+1. 从 [GitHub Releases](https://github.com/One-Clip/OneClip/releases) 下载最新版本
 2. 将 `OneClip.app` 拖入 `Applications` 文件夹
 3. 双击启动应用
 
@@ -58,4 +58,4 @@ brew upgrade --cask oneclip
 
 **手动安装用户：**
 
-从 [GitHub Releases](https://github.com/Wcowin/OneClip/releases) 下载最新版本替换即可。
+从 [GitHub Releases](https://github.com/One-Clip/OneClip/releases) 下载最新版本替换即可。
