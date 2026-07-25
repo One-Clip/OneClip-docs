@@ -24,7 +24,7 @@ extra_css = [
     "stylesheets/extra2.css",
     "https://oneclip.cloud/Wcowin/stylesheets/extra.css",
     # "https://cdn.jsdelivr.net/gh/Wcowin/Wcowin.github.io@main/docs/stylesheets/customize.css",
-    "https://oneclip.cloud/Wcowin/stylesheets/ziti.css"
+    "stylesheets/ziti.css"
 ]
 
 # ===== 导航配置 =====
@@ -143,7 +143,7 @@ dismiss = true
 # ===== 社交媒体链接 =====
 [[project.extra.social]]
 icon = "fontawesome/brands/github"
-link = "https://github.com/Wkwcowin/OneClip"
+link = "https://github.com/One-Clip/OneClip"
 name = "GitHub"
 
 [[project.extra.social]]
