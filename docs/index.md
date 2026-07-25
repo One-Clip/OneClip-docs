@@ -13,8 +13,8 @@ description: OneClip - 简单专业的 macOS 剪贴板管理工具
 
 🚀 高效 · 🎨 现代 · ⚡️ 流畅 · 🔒 安全
 
-[![Release](https://img.shields.io/github/v/release/Wkwcowin/OneClip?style=for-the-badge&color=3b82f6)](https://github.com/One-Clip/OneClip/releases)
-[![Downloads](https://img.shields.io/github/downloads/Wkwcowin/OneClip/total?style=for-the-badge&color=22c55e)](https://github.com/One-Clip/OneClip/releases)
+[![Release](https://img.shields.io/github/v/release/One-Clip/OneClip?style=for-the-badge&color=3b82f6)](https://github.com/One-Clip/OneClip/releases)
+[![Downloads](https://img.shields.io/github/downloads/One-Clip/OneClip/total?style=for-the-badge&color=22c55e)](https://github.com/One-Clip/OneClip/releases)
 ![Homebrew](https://img.shields.io/badge/Homebrew-Available-orange?style=for-the-badge&logo=homebrew&logoColor=white)
 ![macOS 12+](https://img.shields.io/badge/macOS-12%2B-0f172a?style=for-the-badge&logo=apple&logoColor=white)
 
@@ -71,7 +71,7 @@ OneClip 是一款专为 macOS 打造的**专业级剪贴板管理工具**。采�
 === "Homebrew（推荐）"
 
     ```bash
-    brew install --cask Wcowin/oneclip/oneclip
+    brew install --cask wcowin/oneclip/oneclip
     ```
 
 === "GitHub Releases"
@@ -188,7 +188,7 @@ sudo xattr -rd com.apple.quarantine /Applications/OneClip.app
 
 ## 🚀 获取 OneClip
 
-[🚀 免费下载试用](https://github.com/Wkwcowin/OneClip/releases){ .md-button }
+[🚀 免费下载试用](https://github.com/One-Clip/OneClip/releases){ .md-button }
 [💎 购买许可证 - ¥39.90起](purchase/index.md){: .md-button .md-button--primary }
 
 ---

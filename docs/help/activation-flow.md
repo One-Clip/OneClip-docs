@@ -18,23 +18,23 @@
 - **API接口**：`POST /api/payment/create`
 - **流程**：
   1. 用户填写邮箱、选择套餐、设备数量
-  2. 可选：输入优惠码
-  3. 前端调用创建订单API
-  4. 后端创建订单（状态：`pending`），返回订单ID和支付二维码
-  5. 前端显示支付二维码，开始轮询支付状态
+  2. 前端调用创建订单API
+  3. 后端创建订单（状态：`pending`），返回订单ID和支付二维码
+  4. 前端显示支付二维码，开始轮询支付状态
 
 #### 2. 支付处理
 
-- **支付方式**：易支付（支付宝/微信）
+- **支付方式**：国内 ZPay（支付宝）/ 淘宝 / 海外 Waffo（信用卡、Apple Pay、Google Pay、PayPal）
 - **轮询检测**：前端每3秒查询一次订单状态
 - **API接口**：`POST /api/payment/query-order`
-- **支付回调**：`POST /api/payment/notify`（易支付服务器主动通知）
+- **支付回调**：`POST /api/payment/notify`（支付服务器主动通知）
+- **海外渠道**：使用 `POST /api/payment/create-international`（Waffo 收银台），回调为 `POST /api/payment/waffo-webhook`
 
 ### 阶段二：支付完成后的处理
 
 #### 3. 支付回调处理（关键步骤）
 
-- **触发时机**：易支付支付完成后，易支付服务器主动回调
+- **触发时机**：支付完成后，支付服务器主动回调
 - **API接口**：`POST /api/payment/notify`
 - **处理流程**：
   1. ✅ 验证签名、商户ID、支付状态
@@ -320,7 +320,7 @@
 ### 邮件发送时机
 
 1. **自动发送**（支付回调后）：
-   - 易支付支付回调成功后立即发送
+   - 支付回调成功后立即发送
    - 更新 `email_sent = 1`
 
 2. **页面加载后自动发送**（如果未发送）：
@@ -345,8 +345,10 @@
 
 | API端点 | 方法 | 用途 | 安全要求 |
 |---------|------|------|----------|
-| `/api/payment/create` | POST | 创建订单 | 无 |
-| `/api/payment/notify` | POST | 支付回调 | 易支付签名验证 |
+| `/api/payment/create` | POST | 创建订单（国内 ZPay） | 无 |
+| `/api/payment/create-international` | POST | 创建海外订单（Waffo） | 无 |
+| `/api/payment/notify` | POST | 支付回调 | 支付签名验证 |
+| `/api/payment/waffo-webhook` | POST | 海外支付回调 | Waffo 签名验证 |
 | `/api/payment/query-order` | POST | 查询订单 | 订单号+邮箱 |
 | `/api/payment/send-email` | POST | 发送邮件 | 订单号+邮箱 |
 | `/api/order/complete` | GET | 订单完成页 | 订单号+邮箱 |

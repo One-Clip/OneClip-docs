@@ -201,7 +201,6 @@ brew uninstall --cask oneclip
 **A: 购买方式：**
 
 - 官网购买：[https://oneclip.cloud/purchase](https://oneclip.cloud/purchase)
-- 使用优惠码：`OneClip2026`（5￥减免）
 
 **激活方式：**
 

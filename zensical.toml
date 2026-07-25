@@ -6,7 +6,7 @@
 [project]
 # ===== 基本信息 =====
 site_name = "OneClip文档"
-site_url = "https://wcowin.github.io/OneClip/"
+site_url = "https://one-clip.github.io/OneClip-docs/"
 site_description = "OneClip - 简单专业的 macOS 剪贴板管理工具"
 site_author = "Wcowin"
 copyright = "Copyright &copy; 2026 Wcowin"
@@ -15,7 +15,7 @@ site_dir = "site"
 use_directory_urls = true
 
 # ===== 仓库配置 =====
-repo_url = "https://github.com/Wcowin/OneClip"
+repo_url = "https://github.com/One-Clip/OneClip"
 repo_name = "OneClip"
 edit_uri = "edit/main/docs"
 
