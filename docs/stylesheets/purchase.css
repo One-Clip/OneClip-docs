@@ -1,0 +1,248 @@
+.purchase-page {
+  --purchase-accent: #2563eb;
+  --purchase-accent-strong: #1d4ed8;
+  --purchase-success: #047857;
+  --purchase-danger: #b91c1c;
+  margin: 1.5rem 0 3rem;
+}
+
+.purchase-hero {
+  padding: 1.5rem 0 1.25rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  text-align: center;
+}
+
+.purchase-eyebrow {
+  margin: 0 0 0.35rem;
+  color: var(--purchase-accent);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.purchase-price {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 0.4rem;
+  margin: 0.65rem 0;
+}
+
+.purchase-price strong {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.purchase-price span,
+.purchase-muted {
+  color: var(--md-default-fg-color--light);
+}
+
+.purchase-checkout {
+  margin: 1.5rem 0;
+  padding: 1.25rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  background: var(--md-default-bg-color);
+  box-shadow: 0 8px 24px rgb(15 23 42 / 8%);
+}
+
+.purchase-checkout h2 {
+  margin-top: 0;
+  font-size: 1.1rem;
+}
+
+.purchase-field {
+  margin: 0 0 1rem;
+}
+
+.purchase-field label {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-weight: 600;
+}
+
+.purchase-field input {
+  width: 100%;
+  min-height: 2.6rem;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 6px;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  font: inherit;
+}
+
+.purchase-field input:focus {
+  border-color: var(--purchase-accent);
+  outline: 2px solid color-mix(in srgb, var(--purchase-accent) 22%, transparent);
+}
+
+.purchase-coupon-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.5rem;
+}
+
+/* 按钮外观与 hover 现由主题 .md-button 接管（见 .md 中追加的类），
+   此处的 .purchase-button 仅保留纯布局属性，不再定义颜色/hover，
+   以免覆盖主题 .md-button:hover 的悬浮效果。 */
+.purchase-button--full {
+  width: 100%;
+}
+
+.purchase-summary {
+  margin: 1rem 0;
+  padding: 0.8rem 0;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.purchase-summary-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 0.35rem 0;
+}
+
+.purchase-summary-row--total {
+  margin-top: 0.65rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.purchase-status {
+  display: none;
+  margin-top: 0.55rem;
+  font-size: 0.82rem;
+}
+
+.purchase-status.is-visible {
+  display: block;
+}
+
+.purchase-status.is-success {
+  color: var(--purchase-success);
+}
+
+.purchase-status.is-error {
+  color: var(--purchase-danger);
+}
+
+.purchase-note {
+  margin: 0.85rem 0 0;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.78rem;
+  line-height: 1.6;
+}
+
+.purchase-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1rem;
+}
+
+.purchase-modal[hidden] {
+  display: none;
+}
+
+.purchase-modal {
+  position: fixed;
+  z-index: 1000;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+  background: rgb(15 23 42 / 72%);
+}
+
+.purchase-modal-panel {
+  width: min(34rem, 100%);
+  max-height: calc(100vh - 2rem);
+  overflow: auto;
+  padding: 1.25rem;
+  border-radius: 8px;
+  background: var(--md-default-bg-color);
+  box-shadow: 0 24px 64px rgb(0 0 0 / 30%);
+}
+
+.purchase-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.purchase-modal-header h2 {
+  margin: 0;
+  font-size: 1.15rem;
+}
+
+.purchase-icon-button {
+  width: 2.25rem;
+  height: 2.25rem;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--md-default-fg-color);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.purchase-qr {
+  display: block;
+  width: min(16rem, 100%);
+  margin: 1rem auto;
+  border-radius: 6px;
+}
+
+.purchase-result {
+  margin-top: 1rem;
+  padding: 0.8rem;
+  border-radius: 6px;
+  background: var(--md-code-bg-color);
+  overflow-wrap: anywhere;
+}
+
+.purchase-result dl {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.35rem 0.8rem;
+  margin: 0;
+}
+
+.purchase-result dt {
+  color: var(--md-default-fg-color--light);
+}
+
+.purchase-result dd {
+  margin: 0;
+}
+
+.purchase-plans {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0 2rem;
+}
+
+.purchase-plan {
+  padding: 1rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+}
+
+.purchase-plan.is-featured {
+  border-color: var(--purchase-accent);
+}
+
+.purchase-plan h2 {
+  margin-top: 0;
+}
+
+@media (max-width: 800px) {
+  .purchase-plans {
+    grid-template-columns: 1fr;
+  }
+}
